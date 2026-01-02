@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de CDs</title>
+
+    <style>
+        body {
+            background-color: #000000;
+            margin: 0;
+            padding: 20px;
+            color: #e6e6e6;
+            font-family: Impact, Arial Black, Helvetica, sans-serif;
+        }
+
+        .cd {
+            max-width: 540px;
+            margin: 30px auto;
+            background: #0d0d0d;
+            padding: 22px;
+            border: 2px solid #550000;
+            box-shadow: inset 0 0 25px #000000, 0 0 20px #000000;
+        }
+
+        .cd h1 {
+            font-size: 26px;
+            margin: 0 0 6px 0;
+            color: #b00000;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .cd h2 {
+            font-size: 14px;
+            font-weight: normal;
+            color: #aaaaaa;
+            margin: 0 0 18px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        ol {
+            padding-left: 24px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        li::marker {
+            color: #b00000;
+            font-weight: bold;
+        }
+
+        .duracion {
+            float: right;
+            color: #b00000;
+            font-size: 14px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #330000;
+            margin: 18px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== BLOQUE CD (COPIAR DESDE ACÁ) ===== -->
+
+<div class="cd">
+    <h1>CAMBIABLE - TITLE</h1>
+    <h2>CAMBIABLE - ARTIST · CAMBIABLE - YEAR</h2>
+
+    <ol>
+        <li>CAMBIABLE - TRACK 01 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 02 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 03 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 04 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 05 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 06 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 07 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 08 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 09 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 10 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 11 <span class="duracion">CAMBIABLE 00:00</span></li>
+        <li>CAMBIABLE - TRACK 12 <span class="duracion">CAMBIABLE 00:00</span></li>
+    </ol>
+
+    <hr>
+</div>
+
+<!-- ===== HASTA ACÁ ===== -->
+
+</body>
+</html>
